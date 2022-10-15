@@ -1,0 +1,7 @@
+print("Operation on numbers")
+a=list(map(int,input().split()))
+n=len(a)
+print("Maximum of a :",max(a))
+print("Minimum of a :",min(a))
+print("Sum of a",sum(a))
+print("Average of a:",sum(a)/n)

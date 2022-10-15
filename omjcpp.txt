@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    int arr1[n];
+    for(int i=0;i<n;i++){
+        cin>>arr1[i];
+    }
+    int m;
+    cin>>m;
+    int arr2[m];
+    for(int i=0;i<m;i++){
+        cin>>arr2[i];
+    }
+    int freq1[1000]={0};
+    int freq2[1000]={0};
+    for(int j=0;j<1000;j++){
+        freq1[arr1[j]]++;
+        freq2[arr2[j]]++;
+        }
+    for(int k=0;k<1000;k++){
+        if(freq1[k]!=freq2[k]){
+            cout<<freq1[k];
+        }
+    }
+}

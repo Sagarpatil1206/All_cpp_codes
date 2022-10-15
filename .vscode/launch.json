@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch exam",
+            "request": "launch",
+            "mainClass": "exam",
+            "projectName": "C++ Files_6b3fccb9"
+        },
+        {
+            "type": "java",
+            "name": "Launch exception_hadling",
+            "request": "launch",
+            "mainClass": "exception_hadling",
+            "projectName": "C++ Files_6b3fccb9"
+        },
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal"
+        }
+    ]
+}
